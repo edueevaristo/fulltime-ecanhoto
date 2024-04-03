@@ -1,0 +1,14 @@
+#search{
+    width: 50%;
+}
+a{
+    cursor: pointer;
+}
+
+.bi-eye-fill{
+    color: yellow
+}
+
+i{
+    cursor: pointer;
+}
