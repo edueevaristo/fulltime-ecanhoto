@@ -6,7 +6,7 @@ body {
 }
 
 .sidebar {
-  width: 8rem; /* 100px */
+  width: 8rem;
   display: inline-flex;
   padding: 2.625rem 2.3125rem 60.047rem 2.125rem; /* 42px 37px 960.757px 34px */
   flex-direction: column;
