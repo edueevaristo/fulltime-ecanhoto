@@ -10,7 +10,7 @@ Participantes:
 - Amanda Vieira - RA: 1957289.
 - Daniel Oliveira - RA: 1972388.
 - Eduardo Evaristo - RA: 1959599.
-- Giovana - RA: 1961041.
+- Giovana Colombo - RA: 1961041.
 - Jenifer Gonçalves - RA: 1962781.
 - João Pedro Lopes - RA: 1963012.
 
