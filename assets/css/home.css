@@ -194,10 +194,14 @@ body {
 
 .cards-principal {
     margin-left: 10vh;
+    width: 90% !important;
 }
 
 .card {
     width: 18rem;
+    box-shadow: 0px 2px 4px 0px rgba(13, 23, 33, 0.08), 0px 1px 2px 0px rgba(21, 30, 40, 0.08);
+    border-radius: 8px;
+    background: var(--Neutral-White, #FFF);
 }
 
 .card-styles {
@@ -225,4 +229,70 @@ body {
 .active:hover {
     background: var(--hover-color) !important;
     color: var(--body-color) !important;
+}
+
+table {
+    border-radius: 8px;
+    background: var(--Neutral-White, #FFF);
+    box-shadow: 0px 2px 4px 0px rgba(13, 23, 33, 0.08), 0px 1px 2px 0px rgba(21, 30, 40, 0.08);
+}
+
+textarea:focus,
+input:focus,
+select:focus,
+.form-control:focus,
+option:focus,
+.form-select:focus,
+.dt-paging-button:focus,
+dt-paging:focus,
+.dt-paging-button:active {
+    box-shadow: 0 0 0 0 !important;
+    border: 0 none !important;
+    outline: 0 !important;
+}
+
+.usuarios-table {
+    height: 100%;
+    border-radius: 8px;
+    background: var(--Neutral-White, #FFF);
+    box-shadow: 0px 2px 4px 0px rgba(13, 23, 33, 0.08), 0px 1px 2px 0px rgba(21, 30, 40, 0.08);
+}
+
+.usuarios-table-title,
+.canhotos-table-title {
+    color: var(--Neutral-900, #212529);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-table {
+    border-radius: 8px;
+    background: var(--Neutral-White, #FFF);
+    box-shadow: 0px 2px 4px 0px rgba(13, 23, 33, 0.08), 0px 1px 2px 0px rgba(21, 30, 40, 0.08);
+}
+
+.text-footer-table {
+    color: var(--VermelhoFulltime-Forte, #7B1919);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.arrow-footer-table {
+    color: var(--VermelhoFulltime-Forte, #7B1919);
+    width: 25px;
+    height: 25px;
+}
+
+.text-footer-div {
+    display: flex !important;
+    gap: 36px !important;
+    justify-content: center !important;
+    align-items: center !important;
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/2.0.6/css/dataTables.bootstrap5.css" rel="stylesheet">
     <link rel="stylesheet" href="../node_modules/sweetalert2/dist/sweetalert2.min.css">
 
     <link rel="stylesheet" href="../assets/css/home.css">
@@ -92,7 +93,7 @@
                 Visão geral da empresa
             </h6>
 
-            <div class="row cards-principal">
+            <div class="row cards-principal col-lg-12">
                 <div class="card">
                     <div class="card-body d-flex align-items-start justify-content-between">
                         <div>
@@ -135,15 +136,199 @@
                 </div>
 
             </div>
+
+            <div class="row cards-principal">
+
+                <div class="col-md-5 mt-4 bg-white usuarios-table">
+
+
+                    <div class="text-table">
+                        <h4 class="mt-4 ms-3 mb-3 usuarios-table-title">Gestão de usuários</h4>
+                    </div>
+
+
+                    <table id="tableUsuarios" class="table table-responsive table-striped">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Setor</th>
+                                <th>Permissões</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="../assets/img/amanda.png" alt="">
+                                    Amanda Vieira
+                                    <p class="text-muted ms-5">email@gmail.com</p>
+                                </td>
+                                <td>UX/UI Design</td>
+                                <td>Total</td>
+                                <td><i class='bx bx-dots-vertical-rounded'></i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../assets/img/daniel.png" alt="">
+                                    Daniel Oliveira
+                                    <p class="text-muted ms-5">email@gmail.com</p>
+                                </td>
+                                <td>Back-end</td>
+                                <td>Total</td>
+                                <td><i class='bx bx-dots-vertical-rounded'></i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../assets/img/eduardo.png" alt="">
+                                    Eduardo Evaristo
+                                    <p class="text-muted ms-5">email@gmail.com</p>
+                                </td>
+                                <td>Back-end</td>
+                                <td>Edição</td>
+                                <td><i class='bx bx-dots-vertical-rounded'></i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../assets/img/giovana.png" alt="">
+                                    Giovana Colombo
+                                    <p class="text-muted ms-5">email@gmail.com</p>
+                                </td>
+                                <td>Product Manager</td>
+                                <td>Cadastro</td>
+                                <td><i class='bx bx-dots-vertical-rounded'></i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../assets/img/amanda.png" alt="">
+                                    Jenifer Gonçalves
+                                    <p class="text-muted ms-5">email@gmail.com</p>
+                                </td>
+                                <td>Front-end</td>
+                                <td>Cadastro</td>
+                                <td><i class='bx bx-dots-vertical-rounded'></i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../assets/img/amanda.png" alt="">
+                                    João Pedro Lopes
+                                    <p class="text-muted ms-5">email@gmail.com</p>
+                                </td>
+                                <td>Front-end</td>
+                                <td>Cadastro</td>
+                                <td><i class='bx bx-dots-vertical-rounded'></i></td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+
+                <div class="col-md-6 ms-5 mt-4 bg-white usuarios-table">
+
+                    <div class="text-table">
+                        <h5 class="mt-4 ms-3 mb-3 canhotos-table-title">Últimos canhotos</h5>
+                    </div>
+
+                    <table id="tableCanhotos" class="table table-responsive">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Data de Upload</th>
+                                <th>Valor do Recibo</th>
+                                <th>Gerador</th>
+                                <th>Autenticado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>0005</td>
+                                <td>01/01/2024</td>
+                                <td>R$524,30</td>
+                                <td>
+                                    <img src="../assets/img/amanda.png" alt="">
+                                    Amanda Vieira
+                                    <p class="text-muted ms-5">email@gmail.com</p>
+                                </td>
+                                <td>OK</td>
+                            </tr>
+                            <tr>
+                                <td>0005</td>
+                                <td>01/01/2024</td>
+                                <td>R$524,30</td>
+                                <td>
+                                    <img src="../assets/img/amanda.png" alt="">
+                                    Amanda Vieira
+                                    <p class="text-muted ms-5">email@gmail.com</p>
+                                </td>
+                                <td>OK</td>
+                            </tr>
+                            <tr>
+                                <td>0005</td>
+                                <td>01/01/2024</td>
+                                <td>R$524,30</td>
+                                <td>
+                                    <img src="../assets/img/amanda.png" alt="">
+                                    Amanda Vieira
+                                    <p class="text-muted ms-5">email@gmail.com</p>
+                                </td>
+                                <td>OK</td>
+                            </tr>
+                            <tr>
+                                <td>0005</td>
+                                <td>01/01/2024</td>
+                                <td>R$524,30</td>
+                                <td>
+                                    <img src="../assets/img/amanda.png" alt="">
+                                    Amanda Vieira
+                                    <p class="text-muted ms-5">email@gmail.com</p>
+                                </td>
+                                <td>OK</td>
+                            </tr>
+                            <tr>
+                                <td>0005</td>
+                                <td>01/01/2024</td>
+                                <td>R$524,30</td>
+                                <td>
+                                    <img src="../assets/img/amanda.png" alt="">
+                                    Amanda Vieira
+                                    <p class="text-muted ms-5">email@gmail.com</p>
+                                </td>
+                                <td>OK</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                    <div class="text-footer-div">
+                        <h4 class="text-footer-table">Ver todos os canhotos</h4>
+                        <i class='bx bx-right-arrow-alt arrow-footer-table'></i>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
+
     </section>
+
+    <!--  <section class="home-tables">
+        
+    </section> -->
 
 
 </body>
 
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
 <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="https://cdn.datatables.net/2.0.6/js/dataTables.js"></script>
+<script src="https://cdn.datatables.net/2.0.6/js/dataTables.bootstrap5.js"></script>
+<script src="../node_modules/pt-PT.json"></script>
 
 <script src="../assets/js/index.js"></script>
+<script src="../assets//js/tables.js"></script>
 
 </html>
